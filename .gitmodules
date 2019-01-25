@@ -1,0 +1,6 @@
+[submodule "roslibjs"]
+	path = roslibjs
+	url = git@github.com:roamlab/roslibjs.git
+[submodule "ros3djs"]
+	path = ros3djs
+	url = git@github.com:roamlab/ros3djs.git
