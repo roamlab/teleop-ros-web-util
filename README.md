@@ -9,5 +9,5 @@ Before hosting the web contents, make sure to replace the ip adresses of **127.0
 
 ## Extract content to Apache2 folder
 Navigate to root folder, and then run  
-`sudo bash extract_content.sh`
+`sudo bash extract_content.sh -i <ip_address>`
 
