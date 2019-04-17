@@ -1,13 +1,9 @@
 ROS web utilities for teleoperation
 ======================================
-
-## Replace IP address
-Before hosting the web contents, make sure to replace the ip adresses of **127.0.0.1** in the following files:
-* ros3djs/examples/marker_control.html
-* roslibjs/examples/user-monitor/monitor.html
-* roslibjs/examples/user-monitor/buttons_event.js
+## Dependencies
+* [apache2](https://tutorials.ubuntu.com/tutorial/install-and-configure-apache)
 
 ## Extract content to Apache2 folder
-Navigate to root folder, and then run  
-`sudo bash extract_content.sh -i <ip_address>`
-
+Navigate to root folder, and then run
+`sudo bash extract_content.sh -i <ip_address>`  
+This scirpt replaces 127.0.0.1 with the specified <ip_address>
